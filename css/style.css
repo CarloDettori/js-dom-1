@@ -5,9 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    /* max-width: 70vh;
+    height: 100vh; */
+}
+
 
 div {
     align-items: center;
+    width: 100%;
 }
 
 .debugz {
@@ -15,7 +21,8 @@ div {
 }
 
 /* assets */
-.conteiner {
+.container {
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -35,8 +42,8 @@ div {
 }
 
 img {
-    margin: 0 auto;
-    height: 120%;
+    width: 100%;
+
 }
 
 #button {
@@ -45,11 +52,11 @@ img {
     border-radius: 60px;
     background-color: brown;
     color: white;
-    margin-top: 100%;
     border: none;
+    align-items: center;
 }
 
-button:hover {
+#button:hover {
     color: yellow;
 }
 
@@ -57,4 +64,6 @@ button:hover {
 .d-flex {
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
