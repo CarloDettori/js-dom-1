@@ -1,5 +1,60 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+div {
+    align-items: center;
+}
+
+.debugz {
+    border: 1px solid red;
+}
+
+/* assets */
+.conteiner {
+    margin: 0 auto;
+}
+
+.off-bg {
+    background-color: darkslategray;
+}
+
+
+.block {
+    padding: 40px;
+    align-items: center;
+}
+
+.text {
+    padding: 10px;
+    font-size: 110%;
+}
+
+img {
+    margin: 0 auto;
+    height: 120%;
+}
+
+#button {
+    font-size: 200%;
+    padding: 15px 50px;
+    border-radius: 60px;
+    background-color: brown;
+    color: white;
+    margin-top: 100%;
+    border: none;
+}
+
+button:hover {
+    color: yellow;
+}
+
+/* flex utility */
+.d-flex {
+    display: flex;
+    justify-content: center;
 }
